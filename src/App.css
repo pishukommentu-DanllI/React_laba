@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.MainText{
+  color: gainsboro;
+  text-align: center;
+  font-size: 60px;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.BlockInputSpan{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.BlockDleete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+.contener{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 325px;
+}
+.contner__Bloclinput{
+  display: flex;
+  max-width: 100%;
+  border: 1px solid black;
+  border-radius: 100px;
+  gap: 10px;
+  /* justify-content: space-around; */
+}
+.contener__input{
+  /* display: flex;
+  max-width: 100%;
+  border-radius: 100px; */
+  outline: none;
+  padding: 8px;
+  border: 0;
+  border-radius: 100px;
+  margin-left: 5px;
+  width: 100%;
+  
+}
+
+.sumbit{
+  border: 0;
+  background-color: white;
+  /* margin-left: 93px; */
+  border-radius: 100px;
+  position: relative;
+  right: 8px;
+
+}
+.delete_btn{
+  border: 0;
+  border-radius: 100px;
+  padding: 13px 4px;
+}
+
+.text{
+  text-decoration: line-through;
+}
